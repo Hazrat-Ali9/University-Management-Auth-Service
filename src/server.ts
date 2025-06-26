@@ -6,7 +6,7 @@ import subscribeToEvents from './app/events';
 import config from './config/index';
 import { errorlogger } from './shared/logger';
 import { RedisClient } from './shared/redis';
-
+// service
 process.on('uncaughtException', error => {
   errorlogger.error(error);
   process.exit(1);
