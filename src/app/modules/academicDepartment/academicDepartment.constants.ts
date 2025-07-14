@@ -1,5 +1,5 @@
 export const academicDepartmentFilterableFields = ['searchTerm', 'title', 'syncId'];
-
+// academic department
 export const academicDepartmentSearchableFields = ['title'];
 
 
