@@ -7,7 +7,7 @@ import sendResponse from '../../../shared/sendResponse';
 import { academicDepartmentFilterableFields } from './academicDepartment.constants';
 import { IAcademicDepartment } from './academicDepartment.interfaces';
 import { AcademicDepartmentService } from './academicDepartment.service';
-
+// academic department controller
 const createDepartment = catchAsync(async (req: Request, res: Response) => {
   const { ...academicDepartmentData } = req.body;
   const result = await AcademicDepartmentService.createDepartment(
